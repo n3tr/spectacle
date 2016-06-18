@@ -50,8 +50,8 @@ export default class Heading extends Component {
       text: {
         fontSize: 16,
         display: "block",
-        margin: "0",
-        padding: "0",
+        margin: 0,
+        padding: 0,
         lineHeight,
         transform: `scale(${this.state.scale})`,
         transformOrigin: "center top"
